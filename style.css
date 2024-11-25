@@ -1,0 +1,153 @@
+body{
+    background-image: url(img/Skärmbild\ 2024-11-22\ 142012.png);
+    background-repeat:repeat-x
+    background-repeat:repeat-y
+
+}
+
+
+h1{
+    color: white;
+    background-color: rgb(113, 32, 5);
+    margin-top: 40px;
+    border: white solid 2px;
+    width: 50%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.recepten{
+    justify-self: center;
+    color: white;
+    background-color: rgb(1, 50, 93);
+    margin-top: 10px;
+    margin-bottom: 100px;
+    border: white solid 2px;
+    border-radius: 5px;
+    text-align: center ;
+    padding: 10px;
+}
+
+.recept_mål_container{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+}
+
+.rubrikMål{
+    color: white;
+    background-color: rgb(181, 50, 7);
+    margin-top: 60px;
+    border: white solid 2px;
+    height: 10%;
+    width: 20%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.mål{
+    justify-self: center;
+    color: white;
+    background-color: rgb(113, 32, 5);
+    margin-top: 10px;
+    border: white solid 2px;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+}
+.om_burek{
+    justify-self: center;
+    color: white;
+    background-color: rgb(1, 50, 93);
+    margin-top: 10px;
+    border: white solid 2px;
+    border-radius: 5px;
+    text-align: center ;
+    padding: 20px;
+    width: 50%;
+}
+.för_vem{
+    justify-self: center;
+    color: white;
+    background-color: rgb(113, 32, 5);
+    margin-top: 10px;
+    margin-bottom: 100px;
+    border: white solid 2px;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+        margin-bottom: 100px;
+
+}
+.instruktioner{
+    color: white;
+    background-color: rgb(168, 130, 117);
+    margin-top: 40px;
+    border: white solid 2px;
+    width: 20%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.bilder{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.instruktion_bild{
+    justify-self: center;
+    width: 300px;
+    border: white solid 2px;
+    border-radius: 5px;
+}
+.burek_klart{
+    color: white;
+    background-color: rgb(168, 130, 117);
+    margin-top: 40px;
+    border: white solid 2px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sista_bild{
+    width: 500px;
+    border: white solid 2px;
+    border-radius: 5px;
+}
+
+.sista_bild_rad{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.matlänkar{
+    color: rgb(18, 200, 72);
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(168, 130, 117);
+    margin-top: 40px;
+    border: white solid 2px;
+    width: 60%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+}
+    
+.nav_a{
+    justify-self: center;
+    color: white;
+    
+}
